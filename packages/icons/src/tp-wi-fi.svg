@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>wi-fi</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M4.99998 12.5493C6.97655 10.903 9.46759 10.0014 12.04 10.0014C14.6124 10.0014 17.1034 10.903 19.08 12.5493M1.41998 8.9993C4.34241 6.42327 8.10428 5.00195 12 5.00195C15.8957 5.00195 19.6576 6.42327 22.58 8.9993M8.52977 16.1093C9.54497 15.388 10.7594 15.0006 12.0048 15.0006C13.2501 15.0006 14.4646 15.388 15.4798 16.1093M12 19.9993H12.01"/>
+</svg>

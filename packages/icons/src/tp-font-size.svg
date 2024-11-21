@@ -1,0 +1,36 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>font-size</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke-width: var(--stroke-width);
+      fill: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M22 6L19 2L16 6H18V10H16L19 14L22 10H20V6H22ZM9.30701 4L3.30701 20H5.44401L7.31901 15H13.682L15.557 20H17.694L11.694 4H9.30701ZM8.06801 13L10.5 6.515L12.932 13H8.06801Z"/>
+</svg>

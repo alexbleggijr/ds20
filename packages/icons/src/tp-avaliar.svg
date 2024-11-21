@@ -1,0 +1,66 @@
+<svg viewBox="0 0 42 36" fill="none">
+  <title>avaliar</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M41.5 18C41.5 27.6784 33.8757 35.5 24.5 35.5C15.1243 35.5 7.5 27.6784 7.5 18C7.5 8.32165 15.1243 0.5 24.5 0.5C33.8757 0.5 41.5 8.32165 41.5 18Z" stroke="url(#paint0_linear_7753:53761)"/>
+  <circle cx="22" cy="18" r="17.5" stroke="url(#paint1_linear_7753:53761)"/>
+  <circle cx="20" cy="18" r="17.5" stroke="url(#paint2_linear_7753:53761)"/>
+  <path d="M34.5 18C34.5 27.6784 26.8757 35.5 17.5 35.5C8.12434 35.5 0.5 27.6784 0.5 18C0.5 8.32165 8.12434 0.5 17.5 0.5C26.8757 0.5 34.5 8.32165 34.5 18Z" stroke="#5EED71"/>
+  <path d="M19.5 13C20.8807 13 22 11.8807 22 10.5C22 9.11929 20.8807 8 19.5 8C18.1193 8 17 9.11929 17 10.5C17 11.8807 18.1193 13 19.5 13Z" stroke="#5EED71" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 14L8 26" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 22L14 26" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 22H8" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 26V13" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 16L23 16" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 17L22 19" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 13L27 12" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M27 16H28" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 19L27 20" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 26H21" stroke="#5EED71" stroke-width="2" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="paint0_linear_7753:53761" x1="42" y1="18" x2="7" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8433B"/>
+      <stop offset="1" stop-color="#B8433B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_7753:53761" x1="40" y1="18" x2="4" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6A173"/>
+      <stop offset="1" stop-color="#E6A173" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_7753:53761" x1="38" y1="18" x2="2" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6D673"/>
+      <stop offset="1" stop-color="#E6D673" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

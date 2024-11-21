@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>plane</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M19.364 7.46432C21.061 5.76726 20.7782 4.63589 20.0711 3.92879C19.364 3.22168 18.2326 2.93884 16.5356 4.63589L14.4142 6.75721L6.63606 3.22168L3.80763 6.05011L10.1716 10.9999L7.34317 13.8283L4.51474 12.4141L3.10052 15.2425L8.75738 20.8993L11.5858 19.4851L10.1716 16.6567L13 13.8283L17.9498 20.1922L20.7782 17.3638L17.2427 9.58564L19.364 7.46432Z"/>
+</svg>

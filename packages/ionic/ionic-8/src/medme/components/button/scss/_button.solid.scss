@@ -1,0 +1,79 @@
+@use "sass:list";
+$sizes: sm, md, lg;
+$colors: primary, secondary;
+
+ion-button {
+  --background: var(--tp-button-solid-bg-primary-default);
+  --color: var(--tp-button-solid-fg-primary-default);
+  --border-radius: var(--tp-button-solid-border-radius);
+  --box-shadow: none;
+  --padding-top: 0;
+  --padding-bottom: 0;
+  --padding-start: var(--tp-button-solid-padding-horizontal-lg);
+  --padding-end: var(--tp-button-solid-padding-horizontal-lg);
+  --font-size: var(--tp-button-solid-font-size);
+  --ripple-color: var(--tp-button-solid-fg-primary-default);
+  --border-color: var(--tp-button-solid-border-color-primary-default);
+  --border-width: var(--tp-button-solid-border-width);
+  height: var(--tp-button-solid-height-lg);
+  min-height: var(--tp-button-solid-height-lg);
+  margin: 0;
+  color: var(--tp-button-solid-fg-primary-default);
+  font-weight: var(--tp-button-solid-font-weight);
+  font-size: var(--font-size);
+  line-height: var(--tp-button-solid-line-height);
+  letter-spacing: var(--tp-button-solid-letter-spacing);
+  text-transform: var(--tp-button-solid-text-case);
+}
+
+//
+// disabled
+//
+ion-button {
+  &.button-disabled {
+    --background: var(--tp-button-solid-bg-primary-disabled);
+    --color: var(--tp-button-solid-fg-primary-disabled);
+    color: var(--tp-button-solid-fg-primary-disabled);
+    opacity: initial;
+  }
+}
+
+//
+// size
+//
+ion-button {
+  @for $i from 1 through list.length($sizes) {
+    $size: list.nth($sizes, $i);
+
+    &.button-#{$size} {
+      --padding-start: var(--tp-button-solid-padding-horizontal-#{$size});
+      --padding-end: var(--tp-button-solid-padding-horizontal-#{$size});
+      height: var(--tp-button-solid-height-#{$size});
+      min-height: var(--tp-button-solid-height-#{$size});
+    }
+  }
+}
+
+//
+// color
+//
+ion-button {
+  @for $i from 1 through list.length($colors) {
+    $color: list.nth($colors, $i);
+
+    &[tp-color='#{$color}'] {
+      --background: var(--tp-button-solid-bg-#{$color}-default);
+      --color: var(--tp-button-solid-fg-#{$color}-default);
+      --ripple-color: var(--tp-button-solid-fg-#{$color}-default);
+      --border-color: var(--tp-button-solid-border-color-#{$color}-default);
+      color: var(--tp-button-solid-fg-#{$color}-default);
+
+      &.button-disabled {
+        --background: var(--tp-button-solid-bg-#{$color}-disabled);
+        --color: var(--tp-button-solid-fg-#{$color}-disabled);
+        color: var(--tp-button-solid-fg-#{$color}-disabled);
+        opacity: initial;
+      }
+    }
+  }
+}

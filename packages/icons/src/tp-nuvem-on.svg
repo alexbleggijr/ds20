@@ -1,0 +1,43 @@
+<svg viewBox="0 0 24 24">
+  <title>nuvem-on</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M18.0014 10H16.7417C16.3677 8.551 15.5948 7.23599 14.511 6.2044C13.4271 5.1728 12.0757 4.46599 10.6103 4.16428C9.14489 3.86256 7.62427 3.97804 6.22121 4.49759C4.81815 5.01714 3.58891 5.91993 2.67317 7.10338C1.75743 8.28683 1.19191 9.70348 1.04087 11.1924C0.889824 12.6812 1.15932 14.1826 1.81872 15.526C2.47813 16.8693 3.50101 18.0007 4.77113 18.7916C6.04125 19.5824 7.50768 20.0011 9.0038 20H18.0014C19.3271 20 20.5985 19.4732 21.5359 18.5355C22.4734 17.5979 23 16.3261 23 15C23 13.6739 22.4734 12.4021 21.5359 11.4645C20.5985 10.5268 19.3271 10 18.0014 10Z"/>
+  <path d="M7 13L9 15L13 11" style="stroke: var(--tp-color-success) !important"/>
+</svg>
+
+
+
+

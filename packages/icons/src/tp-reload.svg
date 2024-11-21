@@ -1,0 +1,40 @@
+<svg viewBox="0 0 24 24">
+  <title>reload</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M13 6V12L17 14"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1 3.99023V9.99023H7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4.51 13.9907C5.15839 15.831 6.38734 17.4109 8.01166 18.492C9.63598 19.5732 11.5677 20.0973 13.5157 19.9851C15.4637 19.873 17.3226 19.1308 18.8121 17.8704C20.3017 16.61 21.3413 14.8996 21.7742 12.997C22.2072 11.0944 22.0101 9.10263 21.2126 7.32177C20.4152 5.54091 19.0605 4.06747 17.3528 3.12344C15.6451 2.17941 13.6769 1.81593 11.7447 2.08779C9.81245 2.35964 8.02091 3.25209 6.64 4.63067L2 8.99067" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 18 18">
+  <title>generico</title>
+  <style>
+    :host {
+      --stroke-width: 0;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: currentColor;
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M16.5547 6.41935H12.324C12.1014 5.33548 9.59641 3.52903 7.25844 4.81935C4.92047 6.10968 4.97613 7.91613 4.97613 9.56774C4.97613 11.2194 6.36778 13.6452 9.15108 13.6452C11.3777 13.6452 12.3426 11.9247 12.5467 11.0645H8.20476V7.91613H17V9.56774C17 12.9742 13.66 17 9.15108 17C4.64214 17 1.34515 13.4903 1.02384 9.56774C0.70253 5.64517 3.64015 1 9.15108 1C13.5598 1 15.9238 4.6129 16.5547 6.41935Z"/>
+</svg>

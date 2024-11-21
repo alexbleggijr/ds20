@@ -1,0 +1,19 @@
+{
+  "name": "@templarios/shared",
+  "version": "0.0.1",
+  "description": "Templários Shared TypeScript library.",
+  "private": true,
+  "type": "module",
+  "main": "./shared.js",
+  "module": "./shared.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./shared.js"
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build --outDir ../../dist/shared --emptyOutDir"
+  }
+}

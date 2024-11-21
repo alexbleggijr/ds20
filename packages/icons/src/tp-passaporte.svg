@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" fill="none">
+  <title>passaporte</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M29.3337 16C29.3337 23.3638 23.3641 29.3333 16.0003 29.3333M29.3337 16C29.3337 8.63616 23.3641 2.66663 16.0003 2.66663M29.3337 16H2.66699M16.0003 29.3333C8.63653 29.3333 2.66699 23.3638 2.66699 16M16.0003 29.3333C19.3354 25.6822 21.2307 20.9439 21.3337 16C21.2307 11.056 19.3354 6.31776 16.0003 2.66663M16.0003 29.3333C12.6653 25.6822 10.77 20.9439 10.667 16C10.77 11.056 12.6653 6.31776 16.0003 2.66663M2.66699 16C2.66699 8.63616 8.63653 2.66663 16.0003 2.66663" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

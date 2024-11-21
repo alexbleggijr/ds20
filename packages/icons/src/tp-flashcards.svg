@@ -1,0 +1,45 @@
+<svg viewBox="0 0 80 80">
+  <title>flashcards</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+    <path d="M62.7,52.7H4.5c-1.8,0-3.2-1.4-3.2-3.2v-34c0-1.8,1.4-3.2,3.2-3.2h58.2c1.8,0,3.2,1.4,3.2,3.2v34
+        C65.9,51.3,64.4,52.7,62.7,52.7z"/>
+    <path d="M14.3,47.7H9c-1.2,0-2.1-0.9-2.1-2.1v-3.2"/>
+    <path d="M53.6,17.3h5c1.2,0,2.1,0.9,2.1,2.1V23"/>
+    <path d="M65.9,17.6l2.6-0.5c1.7-0.3,3.4,0.8,3.7,2.5L78.6,53c0.3,1.7-0.8,3.4-2.5,3.7l-57.2,11
+        c-1.7,0.3-3.4-0.8-3.7-2.5l-2.4-12.5"/>
+    <path d="M29.2,28c0.8-2.4,3.4-3.6,5.8-2.8c1.8,0.6,3,2.4,3,4.3c0,3-4.5,4.5-4.5,4.5v2.7"/>
+    <path d="M34.1,41c0,0.3-0.2,0.6-0.6,0.6c-0.3,0-0.6-0.2-0.6-0.6c0-0.3,0.2-0.6,0.6-0.6C33.9,40.4,34.1,40.7,34.1,41z"/>
+</svg>

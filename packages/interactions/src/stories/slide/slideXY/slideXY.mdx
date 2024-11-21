@@ -1,0 +1,63 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as slideXYStories from './slideXY.stories';
+
+<Meta of={slideXYStories} />
+
+# SlideXY
+
+## Basic usage
+
+Mais métodos de uso em combinação com as animações em [Ionic Animations](https://ionicframework.com/docs/utilities/animations#methods)
+
+```ts
+  import { Animations, Easing } 'templarios-2.0';
+
+  Animations.slideXY(
+    animatedElement,
+    startX,
+    startXUnit,
+    endX,
+    endXUnit,
+    startY,
+    startYUnit,
+    endY,
+    endYUnit,
+  )
+    .duration(duration)
+    .play();
+
+  Animations.slideXY(
+    animatedElement,
+    startX,
+    startXUnit,
+    endX,
+    endXUnit,
+    startY,
+    startYUnit,
+    endY,
+    endYUnit,
+  )
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.slideXY(
+    animatedElement,
+    startX,
+    startXUnit,
+    endX,
+    endXUnit,
+    startY,
+    startYUnit,
+    endY,
+    endYUnit,
+  )
+    .duration(duration)
+    .easing(Easing.EASE_IN_OUT)
+    .play();
+```
+
+## Atributos
+
+<Canvas of={slideXYStories.Default} />
+<Controls of={slideXYStories.Default} />

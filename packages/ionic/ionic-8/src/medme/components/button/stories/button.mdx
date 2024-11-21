@@ -1,0 +1,34 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as buttonSolidStories from './button.solid.stories';
+
+<Meta of={buttonSolidStories} />
+
+# ion-button
+
+**Documentação Adicional:**
+
+- **[`Ionic v8`](https://ionicframework.com/docs/api/button)**
+
+## Types
+
+```ts
+import { TpIonButton } from 'templarios/core/dist/types/interfaces';
+```
+
+## Enums
+
+```ts
+import {
+  TpIonButtonSolidSize,
+  TpIonButtonOutlineSize,
+  TpIonButtonClearSize,
+  TpIonButtonIconSize,
+} from 'templarios/core/dist/types/interfaces';
+```
+
+## Atributos
+
+### Default
+
+<Canvas of={buttonSolidStories.Default} />
+<Controls of={buttonSolidStories.Default} />

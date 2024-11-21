@@ -1,0 +1,45 @@
+<svg viewBox="0 0 20 20">
+  <title>keyboard</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M6.24999 3.33333H13.75C14.2667 3.33333 14.725 3.35 15.1333 3.40833C17.325 3.65 17.9167 4.68333 17.9167 7.5V12.5C17.9167 15.3167 17.325 16.35 15.1333 16.5917C14.725 16.65 14.2667 16.6667 13.75 16.6667H6.24999C5.73333 16.6667 5.27499 16.65 4.86666 16.5917C2.67499 16.35 2.08333 15.3167 2.08333 12.5V7.5C2.08333 4.68333 2.67499 3.65 4.86666 3.40833C5.27499 3.35 5.73333 3.33333 6.24999 3.33333Z" />
+  <path d="M11.25 8.33333H14.1667" />
+  <path d="M5.83333 12.9167H5.84999H14.1667" />
+  <path d="M8.41217 8.33333H8.41965" />
+  <path d="M5.91217 8.33333H5.91965" />
+</svg>

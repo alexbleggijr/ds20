@@ -1,0 +1,23 @@
+html {
+  overflow: auto !important;
+  font-size: 16px;
+}
+
+.sb-show-main {
+  overflow: auto !important;
+}
+
+.css-1pae8pd {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.css-1pae8pd > img,
+.css-1pae8pd > svg {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.css-ngu85f {
+  min-width: 160px !important;
+}

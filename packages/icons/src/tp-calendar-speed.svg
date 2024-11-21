@@ -1,0 +1,38 @@
+<svg viewBox="0 0 24 24">
+  <title>calendar-speed</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M5 22H18C19.1046 22 20 21.1046 20 20L22 6C22 4.89543 21.1046 4 20 4H6C4.89543 4 4 4.89543 4 6L3 13M18 2L17 6M10 2L9 6M4 10L21 10M1 18H10M7 14H13"/>
+</svg>

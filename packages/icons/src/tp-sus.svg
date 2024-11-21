@@ -1,0 +1,40 @@
+<svg viewBox="0 0 18 18">
+  <title>sus</title>
+  <style>
+    :host {
+      --stroke-width: 0;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: currentColor;
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1608 12.3454C11.1608 12.3454 8.38403 12.5377 6.02531 12.3214C6.06888 15.2058 6.4199 16.6827 6.47729 17H11.635C11.387 15.4844 11.1939 13.038 11.1608 12.3454ZM2.40869 6.36111C2.75511 6.38972 5.7966 6.65481 5.99934 6.65481C5.99934 6.64218 10.8127 11.5716 10.8127 11.5716H17V6.36111H2.40869ZM6.43959 6.0552H11.635V1H6.43959V6.0552ZM6.40524 7.51066L5.72874 6.81807C4.83192 6.82817 1.93327 6.5231 1 6.36111V11.5716C5.65461 12.0332 8.09416 12.151 10.8207 12.0635H10.8659L6.40524 7.51066ZM11.1357 11.8413H11.7703V15.8934C11.6907 15.4696 11.4548 13.0035 11.4829 12.2154C11.4071 12.1312 11.1357 11.8413 11.1357 11.8413Z"/>
+</svg>

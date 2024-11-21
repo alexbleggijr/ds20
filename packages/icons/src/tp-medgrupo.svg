@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>medgrupo</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M16.5 2.5V7.5H21.5M13.5 2.5V7.5M7.5 2.5V7.5H2.5M10.5 2.5V7.5M16.5 21.5V16.5H21.5M7.5 21.5V16.5H2.5M10.5 16.5V21.5M13.5 16.5V21.5M21.5 10.5H16.5M7.5 10.5H2.5M21.5 13.5H16.5M7.5 13.5H2.5M10.5 10.5H10.51M13.5 10.5H13.51M13.5 13.5H13.51M10.5 13.5H10.51"/>
+</svg>

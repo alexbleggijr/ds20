@@ -1,0 +1,33 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as fadeInStories from './fadeIn.stories';
+
+<Meta of={fadeInStories} />
+
+# FadeIn
+
+## Basic usage
+
+Mais métodos de uso em combinação com as animações em [Ionic Animations](https://ionicframework.com/docs/utilities/animations#methods)
+
+```ts
+  import { Animations, Easing } 'templarios-2.0';
+
+  Animations.fadeIn(animatedElement)
+    .duration(duration)
+    .play();
+
+  Animations.fadeIn(animatedElement)
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.fadeIn(animatedElement)
+    .duration(duration)
+    .easing(Easing.EASE_IN)
+    .play();
+```
+
+## Atributos
+
+<Canvas of={fadeInStories.Default} />
+<Controls of={fadeInStories.Default} />

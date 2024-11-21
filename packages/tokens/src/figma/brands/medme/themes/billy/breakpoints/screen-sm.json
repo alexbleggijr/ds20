@@ -1,0 +1,86 @@
+{
+  "tp": {
+    "button": {
+      "solid": {
+        "border-width": {
+          "value": "{tp.dimension.fixed.0}",
+          "type": "borderWidth"
+        },
+        "height": {
+          "lg": {
+            "value": "{tp.dimension.fixed.20}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{tp.dimension.fixed.17}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{tp.dimension.fixed.17}",
+            "type": "sizing"
+          }
+        },
+        "padding": {
+          "horizontal": {
+            "lg": {
+              "value": "{tp.dimension.fixed.18}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{tp.dimension.fixed.13}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{tp.dimension.fixed.10}",
+              "type": "spacing"
+            }
+          }
+        },
+        "font-size": {
+          "value": "{tp.typography.label.font-size.lg}",
+          "type": "fontSizes"
+        }
+      },
+      "bordered": {
+        "border-width": {
+          "value": "{tp.border-width.md}",
+          "type": "borderWidth"
+        },
+        "height": {
+          "lg": {
+            "value": "{tp.dimension.fixed.20}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{tp.dimension.fixed.17}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{tp.dimension.fixed.17}",
+            "type": "sizing"
+          }
+        },
+        "padding": {
+          "horizontal": {
+            "lg": {
+              "value": "{tp.dimension.fixed.18}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{tp.dimension.fixed.13}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{tp.dimension.fixed.10}",
+              "type": "spacing"
+            }
+          }
+        },
+        "font-size": {
+          "value": "{tp.typography.label.font-size.lg}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  }
+}

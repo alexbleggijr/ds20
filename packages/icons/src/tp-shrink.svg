@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>shrink</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M4 20.0002L9 15.0002M9 15.0002L9 19.0002M9 15.0002H5M4 3.75024L9 8.75024M9 8.75024H5M9 8.75024V4.75024M20 20L15 15M15 15H19M15 15V19M20 3.75L15 8.75M15 8.75V4.75M15 8.75H19"/>
+</svg>

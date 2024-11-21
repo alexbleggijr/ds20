@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>drugs</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M7.99986 7.99969L3.99983 11.9997C1.79067 14.2089 1.79067 17.7906 3.99983 19.9998C6.20899 22.209 9.79074 22.209 11.9999 19.9998L15.9999 15.9998M7.99986 7.99969L11.9998 3.99915C14.209 1.79 17.7908 1.79 19.9999 3.99915C22.2091 6.20831 22.2091 9.79007 19.9999 11.9992L15.9999 15.9998M7.99986 7.99969L15.9999 15.9998"/>
+</svg>

@@ -1,0 +1,47 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as maskStories from './mask.stories';
+
+<Meta of={maskStories} />
+
+# Mask
+
+## Basic usage
+
+Mais métodos de uso em combinação com as animações em [Ionic Animations](https://ionicframework.com/docs/utilities/animations#methods)
+
+```ts
+  import { Animations, Easing } 'templarios-2.0';
+
+  Animations.mask(animatedElement)
+    .duration(duration)
+    .play();
+
+  Animations.mask(animatedElement, stagger)
+    .duration(duration)
+    .play();
+
+  Animations.mask(animatedElement, stagger, limitStagger, limitCount)
+    .duration(duration)
+    .play();
+
+  Animations.mask(animatedElement)
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.mask(animatedElement, stagger, limitStagger, limitCount)
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.mask(animatedElement)
+    .duration(duration)
+    .easing(Easing.EASE_IN)
+    .play();
+```
+
+## Atributos
+
+<Canvas of={maskStories.Default} />
+<Controls of={maskStories.Default} />
+./mask.stories

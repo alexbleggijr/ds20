@@ -1,0 +1,26 @@
+{
+  "name": "@templarios/interactions",
+  "version": "0.0.1",
+  "description": "Templários TypeScript library focusing in animations and interactions using Ionic Animations, Ionic Gestures and GSAP.",
+  "private": true,
+  "type": "module",
+  "main": "./interactions.js",
+  "module": "./interactions.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./interactions.js"
+    }
+  },
+  "scripts": {
+    "storybook:start": "storybook dev -p 6006",
+    "storybook:build": "storybook build --output-dir storybook-static-interactions",
+    "vite:start": "vite",
+    "vite:build": "tsc && vite build --outDir ../../dist/interactions --emptyOutDir",
+    "start": "npm-run-all --parallel vite:start storybook:start",
+    "build": "npm-run-all vite:build storybook:build"
+  },
+  "dependencies": {
+    "@ionic/core": "^8.4.0"
+  }
+}

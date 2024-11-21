@@ -1,0 +1,47 @@
+import { IconGallery, IconItem, Meta, Title, Typeset } from '@storybook/blocks';
+import {
+  TP_SYMBOL_DEFS_ICONS,
+  TP_SYMBOL_DEFS_LOGOS,
+} from './utilities/constants/icon-defs.constant';
+
+<Meta title="Defs" />
+
+<Title>Icon Defs</Title>
+
+## Usage
+
+```html
+<svg>
+  <use xlink:href="products-icons-defs.svg#tp-rac-icon"></use>
+</svg>
+```
+
+<IconGallery>
+  {TP_SYMBOL_DEFS_ICONS.map((defs) => (
+    <IconItem name={`#${defs}`}>
+      <svg style={{ fill: 'var(--tp-color-neutral-1)' }}>
+        <use xlinkHref={`./src/products-icons-defs.svg#${defs}`}></use>
+      </svg>
+    </IconItem>
+  ))}
+</IconGallery>
+
+<Title>Logos</Title>
+
+## Usage
+
+```html
+<svg>
+  <use xlink:href="poducts-logos-defs.svg#tp-bymed"></use>
+</svg>
+```
+
+<IconGallery>
+  {TP_SYMBOL_DEFS_LOGOS.map((defs) => (
+    <IconItem name={`#${defs}`}>
+      <svg style={{ fill: 'var(--tp-color-neutral-1)' }}>
+        <use xlinkHref={`./src/products-logos-defs.svg#${defs}`}></use>
+      </svg>
+    </IconItem>
+  ))}
+</IconGallery>

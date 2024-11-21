@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>custom</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M7 14V20M10 17H4M14 14H21V21H14V14ZM17.5 1.55029L22.4497 6.50004L17.5 11.4498L12.5503 6.50004L17.5 1.55029ZM3 3.00004H10V10H3V3.00004Z"/>
+</svg>
