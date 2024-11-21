@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>hourglass</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M4 20C4 15.5817 7.58172 12 12 12M12 12C16.4183 12 20 15.5817 20 20M12 12C7.58172 12 4 8.41828 4 4M12 12C16.4183 12 20 8.41828 20 4M2 3H22M2 21H22"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" fill="none">
+  <title>credito</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <g clip-path="url(#clip0_529_2482)">
+    <path d="M1.33301 13.3335H30.6663M3.99967 5.3335H27.9997C29.4724 5.3335 30.6663 6.5274 30.6663 8.00016V24.0002C30.6663 25.4729 29.4724 26.6668 27.9997 26.6668H3.99967C2.52692 26.6668 1.33301 25.4729 1.33301 24.0002V8.00016C1.33301 6.5274 2.52692 5.3335 3.99967 5.3335Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_529_2482">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+</svg>

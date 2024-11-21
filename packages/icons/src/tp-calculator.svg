@@ -1,0 +1,43 @@
+<svg viewBox="0 0 27 28" fill="none">
+  <title>calculator</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+<path d="M2.53125 22.9744V5.02557C2.53125 3.92414 3.42414 3.03125 4.52557 3.03125H22.4744C23.5759 3.03125 24.4687 3.92414 24.4687 5.02557V22.9744C24.4687 24.0759 23.5759 24.9687 22.4744 24.9687H4.52557C3.42414 24.9687 2.53125 24.0759 2.53125 22.9744Z" />
+<path d="M16.4922 9.01465H18.4865H20.4808"  />
+<path d="M16.4922 17.4902H18.4865H20.4808"  />
+<path d="M16.4922 20.4814H18.4865H20.4808"  />
+<path d="M6.51953 9.01385H8.51385M8.51385 9.01385H10.5082M8.51385 9.01385V7.01953M8.51385 9.01385V11.0082"  />
+<path d="M7.10547 20.3963L8.51566 18.9861M8.51566 18.9861L9.92586 17.5759M8.51566 18.9861L7.10547 17.5759M8.51566 18.9861L9.92586 20.3963"  />
+</svg>

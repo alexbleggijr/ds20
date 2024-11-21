@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen-xs.css"],"names":[],"mappings":"AAIA,iDACE,6BAAA,KACA,6BAAA,KACA,6BAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-medme.tp-theme-billy.tp-breakpoint-screen-xs {\n  --tp-sizing-button-height-sm: 24px;\n  --tp-sizing-button-height-md: 36px;\n  --tp-sizing-button-height-lg: 48px;\n}\n"]}

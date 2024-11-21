@@ -1,0 +1,48 @@
+<svg viewBox="0 0 27 28">
+  <title>hospital</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M6.675 9.125C7.07886 9.125 7.40625 8.79761 7.40625 8.39375V3.7625C7.40625 3.35864 7.73364 3.03125 8.1375 3.03125H18.8625C19.2664 3.03125 19.5938 3.35864 19.5938 3.7625V8.39375C19.5938 8.79761 19.9211 9.125 20.325 9.125H22.5187C22.9226 9.125 23.25 9.45239 23.25 9.85625V24.2375C23.25 24.6414 22.9226 24.9688 22.5187 24.9688H4.48125C4.07739 24.9688 3.75 24.6414 3.75 24.2375V9.85625C3.75 9.45239 4.07739 9.125 4.48125 9.125H6.675Z" />
+  <path d="M11.0547 9.125H13.4922M13.4922 9.125H15.9297M13.4922 9.125V6.6875M13.4922 9.125V11.5625"  />
+  <path d="M18.375 20.1057L18.3872 20.0922"  />
+  <path d="M18.375 15.2307L18.3872 15.2172"  />
+  <path d="M13.5 15.2307L13.5122 15.2172"  />
+  <path d="M8.625 15.2307L8.63715 15.2172"  />
+  <path d="M8.625 20.1057L8.63715 20.0922"  />
+  <path d="M13.5 20.1057L13.5122 20.0922"  />
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>login</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M6 2H2V6M6 22H2V18M18 2H22V6M18 22H22V18M9 12V9.33482C8.99925 8.50865 9.27775 7.71164 9.78144 7.09852C10.2851 6.4854 10.9781 6.0999 11.7258 6.01687C12.4734 5.93385 13.2225 6.1592 13.8276 6.6492C14.4326 7.1392 14.8505 7.85888 15 8.66853M8.11111 12H15.8889C16.5025 12 17 12.4884 17 13.0909V16.9091C17 17.5116 16.5025 18 15.8889 18H8.11111C7.49746 18 7 17.5116 7 16.9091V13.0909C7 12.4884 7.49746 12 8.11111 12Z"/>
+</svg>

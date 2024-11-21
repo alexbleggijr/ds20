@@ -1,0 +1,41 @@
+<svg viewBox="0 0 16 16">
+  <title>park-outline-alarm</title>
+  <style>
+    :host {
+      --stroke-width: 1.5;
+      --fill: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M4.66667 8.33333C4.66667 6.49233 6.159 5 8 5C9.841 5 11.3333 6.49233 11.3333 8.33333V13.6667H4.66667V8.33333Z" />
+  <path d="M8 1.66667V2.66667M11.964 3.10934L11.321 3.87534M14.073 6.76234L13.088 6.93601M1.927 6.76234L2.912 6.93601M4.03633 3.10934L4.679 3.87534M2 13.6667H14.3333"/>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "editor.formatOnSave": true,
+  "material-icon-theme.folders.associations": {
+    "interactions": "typescript",
+    "ionic": "sass",
+    "ionic-5": "sass",
+    "ionic-6": "sass",
+    "ionic-7": "sass",
+    "ionic-8": "sass",
+    "tokens": "css",
+    "web-components": "stencil",
+    "web-components-wrappers": "stencil",
+    "angular-standalone": "angular",
+    "react": "react-components"
+  },
+  "nxConsole.nxWorkspacePath": ""
+}

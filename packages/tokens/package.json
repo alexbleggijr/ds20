@@ -1,0 +1,29 @@
+{
+  "name": "@templarios/tokens",
+  "version": "0.0.1",
+  "description": "Templários design system tokens library.",
+  "private": true,
+  "type": "module",
+  "main": "./utilities.js",
+  "module": "./utilities.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./utilities.js"
+    }
+  },
+  "scripts": {
+    "clean:dist:local": "shx rm -rf dist",
+    "clean:dist:build": "shx rm -rf ../../dist/tokens/*",
+    "dictionary:build": "cross-env NODE_ENV=development node src/tokens.js",
+    "dictionary:publish": "cross-env NODE_ENV=production node src/tokens.js",
+    "css:minify:build": "postcss --replace \"dist/css/**/*.css\" \"!./dist/css/**/*.min.css\" --use autoprefixer && cleancss -O2 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output \"./dist/css\" --batch --batch-suffix .min \"./dist/css/**/*.css\" \"!./dist/css/**/*.min.css\"",
+    "css:minify:publish": "postcss --replace \"../../dist/tokens/css/**/*.css\" \"!../../dist/tokens/css/**/*.min.css\" --use autoprefixer && cleancss -O2 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output \"../../dist/tokens/css\" --batch --batch-suffix .min \"../../dist/tokens/css/**/*.css\" \"!../../dist/tokens/css/**/*.min.css\"",
+    "start:dictionary": "npm-run-all clean:dist:local dictionary:build css:minify:build",
+    "build:dictionary": "npm-run-all clean:dist:build dictionary:publish css:minify:publish",
+    "start:library": "tsx src/utilities.ts",
+    "build:library": "tsc && vite build --outDir ../../dist/tokens --emptyOutDir",
+    "start": "npm-run-all start:dictionary",
+    "build": "npm-run-all build:dictionary"
+  }
+}

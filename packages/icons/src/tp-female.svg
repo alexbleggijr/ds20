@@ -1,0 +1,41 @@
+<svg viewBox="0 0 18 18">
+  <title>female</title>
+  <style>
+    :host {
+      --stroke-width: 1.5;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M9.1875 11.625C12.087 11.625 14.4375 9.27449 14.4375 6.375C14.4375 3.4755 12.087 1.125 9.1875 1.125C6.288 1.125 3.9375 3.4755 3.9375 6.375C3.9375 9.27449 6.288 11.625 9.1875 11.625ZM9.1875 11.625V15.125M9.1875 15.125V16.875M9.1875 15.125H7.4375M9.1875 15.125H10.9375" />
+</svg>

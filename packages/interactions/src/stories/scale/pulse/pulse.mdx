@@ -1,0 +1,51 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as pulseStories from './pulse.stories';
+
+<Meta of={pulseStories} />
+
+# Pulse
+
+## Basic usage
+
+Mais métodos de uso em combinação com as animações em [Ionic Animations](https://ionicframework.com/docs/utilities/animations#methods)
+
+```ts
+  import { Animations, Easing } 'templarios-2.0';
+
+  Animations.pulse(
+    animatedElement,
+    firstPeak,
+    secondPeak,
+    firstPeakOffset,
+    secondPeakOffset,
+  )
+    .duration(duration)
+    .play();
+
+  Animations.pulse(
+    animatedElement,
+    firstPeak,
+    secondPeak,
+    firstPeakOffset,
+    secondPeakOffset,
+  )
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.pulse(
+    animatedElement,
+    firstPeak,
+    secondPeak,
+    firstPeakOffset,
+    secondPeakOffset,
+  )
+    .duration(duration)
+    .easing(Easing.EASE_IN)
+    .play();
+```
+
+## Atributos
+
+<Canvas of={pulseStories.Default} />
+<Controls of={pulseStories.Default} />

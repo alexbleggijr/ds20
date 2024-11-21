@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>order</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M2.25732 14.2422L6.49996 9.99955M6.49996 9.99955L10.7426 14.2422M6.49996 9.99955L6.50004 19.8991M21.7427 9.70666L17.5 13.9493M17.5 13.9493L13.2574 9.70666M17.5 13.9493V4.0498"/>
+</svg>

@@ -1,0 +1,75 @@
+@use "sass:list";
+$sizes: sm, md, lg;
+$colors: primary, secondary;
+
+ion-button.button-bordered {
+  --background: var(--tp-button-bordered-bg-primary-default);
+  --color: var(--tp-button-bordered-fg-primary-default);
+  --border-radius: var(--tp-button-bordered-border-radius);
+  --padding-start: var(--tp-button-bordered-padding-horizontal-lg);
+  --padding-end: var(--tp-button-bordered-padding-horizontal-lg);
+  --font-size: var(--tp-button-bordered-font-size);
+  --ripple-color: var(--tp-button-bordered-fg-primary-default);
+  --border-color: var(--tp-button-bordered-border-color-primary-default);
+  --border-width: var(--tp-button-bordered-border-width);
+  --border-style: var(--tp-button-bordered-border-style);
+  height: var(--tp-button-bordered-height-lg);
+  min-height: var(--tp-button-bordered-height-lg);
+  color: var(--tp-button-bordered-fg-primary-default);
+  font-weight: var(--tp-button-bordered-font-weight);
+  line-height: var(--tp-button-bordered-line-height);
+  letter-spacing: var(--tp-button-bordered-letter-spacing);
+  text-transform: var(--tp-button-bordered-text-case);
+}
+
+//
+// disabled
+//
+ion-button.button-bordered {
+  &.button-disabled {
+    --background: var(--tp-button-bordered-bg-secondary-disabled);
+    --color: var(--tp-button-bordered-fg-secondary-disabled);
+    color: var(--tp-button-bordered-fg-secondary-disabled);
+    opacity: initial;
+  }
+}
+
+//
+// size
+//
+ion-button.button-bordered {
+  @for $i from 1 through list.length($sizes) {
+    $size: list.nth($sizes, $i);
+
+    &.button-#{$size} {
+      --padding-start: var(--tp-button-bordered-padding-horizontal-#{$size});
+      --padding-end: var(--tp-button-bordered-padding-horizontal-#{$size});
+      height: var(--tp-button-bordered-height-#{$size});
+      min-height: var(--tp-button-bordered-height-#{$size});
+    }
+  }
+}
+
+//
+// color
+//
+ion-button.button-bordered {
+  @for $i from 1 through list.length($colors) {
+    $color: list.nth($colors, $i);
+
+    &[tp-color='#{$color}'] {
+      --background: var(--tp-button-bordered-bg-#{$color}-default);
+      --color: var(--tp-button-bordered-fg-#{$color}-default);
+      --ripple-color: var(--tp-button-bordered-fg-#{$color}-default);
+      --border-color: var(--tp-button-bordered-border-color-#{$color}-default);
+      color: var(--tp-button-bordered-fg-#{$color}-default);
+
+      &.button-disabled {
+        --background: var(--tp-button-bordered-bg-#{$color}-disabled);
+        --color: var(--tp-button-bordered-fg-#{$color}-disabled);
+        color: var(--tp-button-bordered-fg-#{$color}-disabled);
+        opacity: initial;
+      }
+    }
+  }
+}

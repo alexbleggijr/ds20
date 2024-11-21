@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>cards</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M5 13H4C3.46957 13 2.96086 12.8541 2.58579 12.5945C2.21071 12.3348 2 11.9826 2 11.6154V5.38462C2 5.01739 2.21071 4.66521 2.58579 4.40554C2.96086 4.14588 3.46957 4 4 4H13C13.5304 4 14.0391 4.14588 14.4142 4.40554C14.7893 4.66521 15 5.01739 15 5.38462V6.07692M11 11H20C21.1046 11 22 11.6199 22 12.3846V18.6154C22 19.3801 21.1046 20 20 20H11C9.89543 20 9 19.3801 9 18.6154V12.3846C9 11.6199 9.89543 11 11 11Z"/>
+</svg>

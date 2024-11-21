@@ -1,0 +1,98 @@
+{
+  "tp": {
+    "button": {
+      "solid": {
+        "metadata": {
+          "value": "solid",
+          "type": "tp-name"
+        },
+        "height": {
+          "metadata": {
+            "value": "lg md sm",
+            "type": "tp-size"
+          },
+          "lg": {
+            "value": "{tp.dimension.fixed.18}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{tp.dimension.fixed.14}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{tp.dimension.fixed.14}",
+            "type": "sizing"
+          }
+        },
+        "padding": {
+          "horizontal": {
+            "lg": {
+              "value": "{tp.dimension.fixed.18}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{tp.dimension.fixed.13}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{tp.dimension.fixed.10}",
+              "type": "spacing"
+            }
+          }
+        },
+        "font-size": {
+          "value": "{tp.typography.label.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "border-width": {
+          "value": "{tp.dimension.fixed.0}",
+          "type": "borderWidth"
+        }
+      },
+      "bordered": {
+        "metadata": {
+          "value": "bordered",
+          "type": "tp-name"
+        },
+        "height": {
+          "lg": {
+            "value": "{tp.dimension.fixed.18}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{tp.dimension.fixed.14}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{tp.dimension.fixed.14}",
+            "type": "sizing"
+          }
+        },
+        "padding": {
+          "horizontal": {
+            "lg": {
+              "value": "{tp.dimension.fixed.18}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{tp.dimension.fixed.13}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{tp.dimension.fixed.10}",
+              "type": "spacing"
+            }
+          }
+        },
+        "font-size": {
+          "value": "{tp.typography.label.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "border-width": {
+          "value": "{tp.border-width.sm}",
+          "type": "borderWidth"
+        }
+      }
+    }
+  }
+}

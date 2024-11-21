@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" fill="none">
+  <title>cheque</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+  <path d="M8 4V6.66667M20 28H28M8 16V18.6667M11.3333 6.66667H6.33333C5.71449 6.66667 5.121 6.9125 4.68342 7.35008C4.24583 7.78767 4 8.38116 4 9C4 9.61884 4.24583 10.2123 4.68342 10.6499C5.121 11.0875 5.71449 11.3333 6.33333 11.3333H9.66667C10.2855 11.3333 10.879 11.5792 11.3166 12.0168C11.7542 12.4543 12 13.0478 12 13.6667C12 14.2855 11.7542 14.879 11.3166 15.3166C10.879 15.7542 10.2855 16 9.66667 16H4M23.3333 10.1618C23.8638 9.63133 24.5832 9.33333 25.3333 9.33333C26.0835 9.33333 26.8029 9.63133 27.3333 10.1618C27.8638 10.6922 28.1618 11.4116 28.1618 12.1618C28.1618 12.9119 27.8638 13.6313 27.3333 14.1618L14.6667 26.8284L9.33333 28.1618L10.6667 22.8284L23.3333 10.1618Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 27 28">
+  <title>flask</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+<path d="M20.8125 17.375H6.1875" />
+<path d="M18 5.00003H9M10.125 5.56253V12.0425C10.1253 12.5797 9.93332 13.0993 9.58388 13.5073L3.915 20.1178C3.56596 20.5259 3.37442 21.0455 3.375 21.5825V21.875C3.375 22.4718 3.61205 23.0441 4.03401 23.466C4.45597 23.888 5.02826 24.125 5.625 24.125H21.375C21.9717 24.125 22.544 23.888 22.966 23.466C23.3879 23.0441 23.625 22.4718 23.625 21.875V21.5825C23.625 21.0452 23.4326 20.5256 23.0828 20.1178L17.4173 13.5073C17.0674 13.0994 16.875 12.5799 16.875 12.0425V5.56253M13.5 10.6363L13.5113 10.6239M12.375 2.76128L12.3863 2.7489"/>
+</svg>

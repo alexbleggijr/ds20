@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>eye-off</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M9.9 4.24c0.688-0.161 1.393-0.242 2.1-0.24 7 0 11 8 11 8-0.607 1.136-1.331 2.205-2.16 3.19M14.12 14.12c-0.275 0.295-0.606 0.531-0.974 0.695s-0.765 0.252-1.168 0.259-0.803-0.067-1.176-0.218c-0.373-0.151-0.713-0.375-0.998-0.66s-0.509-0.624-0.66-0.998c-0.151-0.374-0.225-0.774-0.218-1.176s0.095-0.8 0.259-1.168c0.164-0.368 0.4-0.699 0.695-0.974M1 1l22 22M17.94 17.94c-1.709 1.303-3.791 2.025-5.94 2.060-7 0-11-8-11-8 1.244-2.318 2.969-4.343 5.060-5.94l11.88 11.88z"></path>
+</svg>

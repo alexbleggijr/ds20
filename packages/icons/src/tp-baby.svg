@@ -1,0 +1,44 @@
+<svg viewBox="0 0 18 18">
+  <title>baby</title>
+  <style>
+    :host {
+      --stroke-width: 1.5;
+      --fill: none !important;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path,
+    :host circle {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path,
+    :host(.ion-color) circle {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <circle cx="5.00093" cy="4.97838" r="3.53639" transform="rotate(5.39769 5.00093 4.97838)"/>
+  <path d="M2.02304 7.15972C1.2159 10.5302 2.02309 14.1299 6.20336 15.7482C10.6279 17.4612 11.2523 14.0052 12.5725 14.1299C13.8928 14.2547 13.6849 16.4551 15.0883 15.6997C17.2902 14.5145 15.1888 9.93697 12.0681 10.5301M5.54842 8.58206C5.66738 8.88931 6.60949 9.57035 7.6657 9.67015C8.98597 9.7949 10.5142 7.7192 11.7513 8.72413C12.9884 9.72906 11.8587 12.2864 8.21322 13.274" />
+</svg>

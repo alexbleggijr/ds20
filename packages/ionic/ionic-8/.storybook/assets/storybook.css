@@ -1,0 +1,7 @@
+.tp-scheme-dark ion-content {
+  --background: black;
+}
+
+.tp-scheme-light ion-content {
+  --background: white;
+}

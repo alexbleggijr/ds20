@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>file-sheet</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M20.5 16L20.5 4C20.5 3.46957 20.2827 2.96086 19.8959 2.58579C19.5091 2.21071 18.9845 2 18.4375 2L6.0625 2C5.51549 2 4.99089 2.21072 4.60409 2.58579C4.2173 2.96086 4 3.46957 4 4L4 20C4 20.5304 4.2173 21.0391 4.60409 21.4142C4.99089 21.7893 5.51549 22 6.0625 22H14.3125L20.5 16ZM20.5 16L14 16L14 22M15.5 7H8.5M15.5 11H8.5M10 15H8.5"/>
+</svg>

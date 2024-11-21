@@ -1,0 +1,23 @@
+{
+  "name": "@templarios/ionic-8",
+  "version": "0.0.1",
+  "description": "Templários Ionic 8 components CSS skin.",
+  "private": true,
+  "scripts": {
+    "clean:dist:local": "shx rm -rf dist",
+    "clean:dist:build": "shx rm -rf ../../../dist/ionic/ionic-8/*",
+    "scss:watch": "sass --no-source-map src/:dist --watch",
+    "scss:build": "sass --no-source-map src/:dist",
+    "scss:publish": "sass --no-source-map src/:../../../dist/ionic/ionic-8",
+    "scss:minify": "sass --no-source-map src/:../../../dist/ionic/ionic-8",
+    "css:minify": "postcss --replace ../../../dist/ionic/ionic-8/**/*.css !../../../dist/ionic/ionic-8/**/*.min.css --use autoprefixer && cleancss -O2 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ../../../dist/ionic/ionic-8 --batch --batch-suffix .min ../../../dist/ionic/ionic-8/**/*.css !../../../dist/ionic/ionic-8/**/*.min.css",
+    "storybook:start": "storybook dev -p 6006",
+    "storybook:build": "storybook build --output-dir storybook-static-8",
+    "start": "npm-run-all clean:dist:local --parallel scss:watch storybook:start",
+    "build": "npm-run-all clean:dist:build scss:build scss:publish css:minify storybook:build"
+  },
+  "devDependencies": {
+    "@ionic/core": "^8.4.0",
+    "@templarios/tokens": "*"
+  }
+}

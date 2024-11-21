@@ -1,0 +1,41 @@
+<svg viewBox="0 0 25 24">
+  <title>inbox</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M22.8001 12H16.5819L14.5092 15H10.3637L8.29098 12H2.07279M22.8001 12L22.8 18C22.8 18.5304 22.5817 19.0391 22.1929 19.4142C21.8042 19.7893 21.277 20 20.7273 20H4.14548C3.59576 20 3.06855 19.7893 2.67984 19.4142C2.29113 19.0391 2.07275 18.5304 2.07275 18L2.07279 12M22.8001 12L19.2246 5.11C19.053 4.77679 18.7884 4.49637 18.4607 4.30028C18.133 4.10419 17.7551 4.0002 17.3695 4H7.5033C7.11769 4.0002 6.73977 4.10419 6.41206 4.30028C6.08434 4.49637 5.81981 4.77679 5.64821 5.11L2.07279 12"/>
+</svg>

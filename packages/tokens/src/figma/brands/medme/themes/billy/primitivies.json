@@ -1,0 +1,52 @@
+{
+  "tp": {
+    "medme": {
+      "billy": {
+        "color": {
+          "red": {
+            "10": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 90%, 1)",
+              "type": "color"
+            },
+            "20": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 80%, 1)",
+              "type": "color"
+            },
+            "30": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 70%, 1)",
+              "type": "color"
+            },
+            "40": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 60%, 1)",
+              "type": "color"
+            },
+            "50": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 50%, 1)",
+              "type": "color"
+            },
+            "60": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 40%, 1)",
+              "type": "color"
+            },
+            "70": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 30%, 1)",
+              "type": "color"
+            },
+            "80": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 20%, 1)",
+              "type": "color"
+            },
+            "90": {
+              "value": "hsla( {tp.color.red.hue}, 100%, 10%, 1)",
+              "type": "color"
+            },
+            "hue": {
+              "value": "7",
+              "type": "other"
+            }
+          }
+        }
+      }
+    }
+  }
+}

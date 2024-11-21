@@ -1,0 +1,24 @@
+.tp-mask-container {
+  display: block !important;
+  overflow: hidden !important;
+
+  &--flex {
+    display: flex !important;
+  }
+}
+
+.tp-mask-item-to-top {
+  transform: translateY(100%);
+}
+
+.tp-mask-item-to-bottom {
+  transform: translateY(-100%);
+}
+
+.tp-mask-item-to-left {
+  transform: translateX(100%);
+}
+
+.tp-mask-item-to-right {
+  transform: translateY(-100%);
+}

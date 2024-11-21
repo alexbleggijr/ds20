@@ -1,0 +1,33 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as scaleStories from './scale.stories';
+
+<Meta of={scaleStories} />
+
+# Scale
+
+## Basic usage
+
+Mais métodos de uso em combinação com as animações em [Ionic Animations](https://ionicframework.com/docs/utilities/animations#methods)
+
+```ts
+  import { Animations, Easing } 'templarios-2.0';
+
+  Animations.scale(animatedElement, start, end)
+    .duration(duration)
+    .play();
+
+  Animations.scale(animatedElement, start, end)
+    .duration(duration)
+    .delay(delay)
+    .play();
+
+  Animations.scale(animatedElement, start, end)
+    .duration(duration)
+    .easing(Easing.EASE_IN)
+    .play();
+```
+
+## Atributos
+
+<Canvas of={scaleStories.Default} />
+<Controls of={scaleStories.Default} />

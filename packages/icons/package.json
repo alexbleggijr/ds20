@@ -1,0 +1,19 @@
+{
+  "name": "@templarios/icons",
+  "version": "0.0.1",
+  "description": "Templários icons library.",
+  "private": true,
+  "scripts": {
+    "clean:dist:local": "shx rm -rf dist",
+    "clean:dist:build": "shx rm -rf ../../../dist/icons/*",
+    "storybook:start": "storybook dev -p 6006",
+    "storybook:build": "storybook build --output-dir storybook-static-icons",
+    "start": "npm-run-all clean:dist:local --parallel storybook:start",
+    "publish": "npm-run-all clean:dist:build storybook:build"
+  },
+  "devDependencies": {
+    "@ionic/core": "^8.4.0",
+    "@templarios/tokens": "*",
+    "ionicons": "^7.4.0"
+  }
+}

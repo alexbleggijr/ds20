@@ -1,0 +1,41 @@
+<svg viewBox="0 0 24 24">
+  <title>list-star</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M8 9H10M8 15H21M8 21H21M3 9H3.01M3 15H3.01M3 21H3.01M17 2L18.545 4.96215L22 5.44006L19.5 7.74448L20.09 11L17 9.46215L13.91 11L14.5 7.74448L12 5.44006L15.455 4.96215L17 2Z"/>
+</svg>

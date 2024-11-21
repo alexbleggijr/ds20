@@ -1,0 +1,42 @@
+<svg viewBox="0 0 24 24">
+  <title>clock-slow</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M23 4V10M23 10H17M23 10L18.37 5.63953C16.9906 4.25926 15.2 3.36471 13.268 3.09067C11.3359 2.81663 9.36717 3.17794 7.65836 4.12016C5.94954 5.06239 4.59325 6.53448 3.79386 8.31459C2.99448 10.0947 2.79531 12.0864 3.22637 13.9896C3.65743 15.8927 4.69536 17.6043 6.18376 18.8662M12 8.25V12.75L14.25 15"/>
+  <path d="M20.486 14.998C19.836 16.838 18.6055 18.4168 16.9802 19.4966C15.3548 20.5763 13.4225 21.0986 11.4744 20.9846C9.52638 20.8707 7.66815 20.1267 6.17975 18.8647" stroke-dasharray="2 4"/>
+</svg>

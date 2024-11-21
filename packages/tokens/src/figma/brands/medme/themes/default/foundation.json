@@ -1,0 +1,42 @@
+{
+  "tp": {
+    "typography": {
+      "label": {
+        "font-size": {
+          "sm": {
+            "value": "{tp.dimension.fixed.8}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{tp.dimension.fixed.9}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{tp.dimension.fixed.10}",
+            "type": "fontSizes"
+          }
+        },
+        "font-family": {
+          "value": "{tp.font-family.fsemeric}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{tp.font-weight.regular}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{tp.line-height.1}",
+          "type": "lineHeights"
+        },
+        "letter-spacing": {
+          "value": "{tp.letter-spacing.md}",
+          "type": "letterSpacing"
+        },
+        "text-case": {
+          "value": "{tp.text-transform.none}",
+          "type": "textCase"
+        }
+      }
+    }
+  }
+}

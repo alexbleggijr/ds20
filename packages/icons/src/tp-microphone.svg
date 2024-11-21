@@ -1,0 +1,44 @@
+<svg viewBox="0 0 27 28">
+  <title>microphone</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M13.5 21.875C17.2237 21.875 20.25 18.8487 20.25 15.125V9.5C20.25 5.77625 17.2237 2.75 13.5 2.75C9.77625 2.75 6.75 5.77625 6.75 9.5V15.125C6.75 18.8487 9.77625 21.875 13.5 21.875Z" />
+  <path d="M3.375 12.875V15.125C3.375 20.7162 7.90875 25.25 13.5 25.25C19.0912 25.25 23.625 20.7162 23.625 15.125V12.875" style="--fill: transparent;" />
+  <path d="M10.249 8.91501C12.2515 8.18376 14.434 8.18376 16.4365 8.91501" />
+  <path d="M11.2842 12.29C12.6342 11.9188 14.0629 11.9188 15.4129 12.29" />
+</svg>

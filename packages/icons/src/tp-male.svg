@@ -1,0 +1,41 @@
+<svg viewBox="0 0 18 18">
+  <title>male</title>
+  <style>
+    :host {
+      --stroke-width: 1.5;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {
+      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {
+      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {
+      font-size: 48px;
+    }
+  </style>
+  <path d="M10.8835 7.09909C9.96812 6.18806 8.70604 5.625 7.3125 5.625C4.51656 5.625 2.25 7.89157 2.25 10.6875C2.25 13.4834 4.51656 15.75 7.3125 15.75C10.1084 15.75 12.375 13.4834 12.375 10.6875C12.375 9.2851 11.8048 8.01593 10.8835 7.09909ZM10.8835 7.09909L15.75 2.25M15.75 2.25H12.375M15.75 2.25V5.625" />
+</svg>
