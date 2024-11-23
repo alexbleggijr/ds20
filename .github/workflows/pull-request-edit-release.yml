@@ -14,7 +14,7 @@ jobs:
       - name: Prefix pull request title edition
         uses: deepakputhraya/action-pr-title@master
         with:
-          regex: '([feat]|[fix]|[docs]|[style]|[refactor]|[test]|[build]|[ci]|[chore])+([angular-material]|[icons]|[interactions]|[ionic-5]|[ionic-6]|[ionic-7]|[ionic-8]|[shared]|[tokens]|[utilities]|[web-components])+([a-z])+\/([a-z])+'
+          regex: '^\[(root|angular-material|icons|interactions|ionic-5|ionic-6|ionic-7|ionic-8|shared|tokens|utilities|web-components)\]\[(feat|fix|docs|style|refactor|test|build|ci|chore)\] [a-z]+( .*)*$'
           github_token: ${{ github.token }}
 
       - uses: actions/checkout@v4

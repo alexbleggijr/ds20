@@ -12,11 +12,11 @@ const branchName = execSync('git rev-parse --abbrev-ref HEAD')
 // check if the branch name matches the pattern
 if (!branchPattern.test(branchName)) {
   console.error(
-    `Invalid branch name: ${branchName}. Branch names must match the pattern: {root|package}/{type}/task-to-be-done`,
+    `Invalid branch name: ${branchName}. Branch names must match the pattern: {package}/{type}/task-to-be-done`,
   );
   console.log('');
   console.warn(
-    `{root|package}:
+    `{package}:
   - root 
   - angular-material 
   - icons
