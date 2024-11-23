@@ -1,0 +1,42 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.tp-medme.tp-theme-billy.tp-scheme-dark {
+  --tp-color-ui-primary-stronger: hsla( 190, 100%, 90%, 1);
+  --tp-color-ui-primary-strong: hsla( 190, 100%, 80%, 1);
+  --tp-color-ui-primary-base: hsla( 190, 100%, 50%, 1);
+  --tp-color-ui-primary-soft: hsla( 190, 100%, 30%, 1);
+  --tp-color-ui-primary-softer: hsla( 190, 100%, 10%, 1);
+  --tp-color-ui-neutral-stronger: hsla( 0, 0%, 85%, 1);
+  --tp-color-ui-neutral-strong: hsla( 0, 0%, 65%, 1);
+  --tp-color-ui-neutral-base: hsla( 0, 0%, 45%, 1);
+  --tp-color-ui-neutral-soft: hsla( 0, 0%, 25%, 1);
+  --tp-color-ui-neutral-softer: hsla( 0, 0%, 13%, 1);
+  --tp-color-button-solid-primary-background-default: hsla( 190, 100%, 50%, 1);
+  --tp-color-button-solid-primary-background-disabled: hsla( 190, 100%, 30%, 1);
+  --tp-color-button-solid-primary-foreground-default: hsla( 190, 100%, 10%, 1);
+  --tp-color-button-solid-primary-foreground-disabled: hsla( 190, 100%, 80%, 1);
+  --tp-color-button-solid-primary-border-default: rgba(0, 0, 0, 0);
+  --tp-color-button-solid-primary-border-disabled: rgba(0, 0, 0, 0);
+  --tp-color-button-border-neutral-background-default: rgba(0, 0, 0, 0);
+  --tp-color-button-border-neutral-background-disabled: rgba(0, 0, 0, 0);
+  --tp-color-button-border-neutral-foreground-default: #ffffff;
+  --tp-color-button-border-neutral-foreground-disabled: hsla( 0, 0%, 65%, 1);
+  --tp-color-button-border-neutral-border-default: hsla( 0, 0%, 45%, 1);
+  --tp-color-button-border-neutral-border-disabled: hsla( 0, 0%, 45%, 1);
+  --tp-color-button-ghost-primary-background-default: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-primary-background-disabled: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-primary-foreground-default: hsla( 190, 100%, 80%, 1);
+  --tp-color-button-ghost-primary-foreground-disabled: hsla( 0, 0%, 45%, 1);
+  --tp-color-button-ghost-primary-border-default: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-primary-border-disabled: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-neutral-background-default: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-neutral-background-disabled: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-neutral-foreground-default: #ffffff;
+  --tp-color-button-ghost-neutral-foreground-disabled: hsla( 0, 0%, 45%, 1);
+  --tp-color-button-ghost-neutral-border-default: rgba(0, 0, 0, 0);
+  --tp-color-button-ghost-neutral-border-disabled: rgba(0, 0, 0, 0);
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRhcmsuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztFQUVFOztBQUVGO0VBQ0Usd0RBQXdEO0VBQ3hELHNEQUFzRDtFQUN0RCxvREFBb0Q7RUFDcEQsb0RBQW9EO0VBQ3BELHNEQUFzRDtFQUN0RCxvREFBb0Q7RUFDcEQsa0RBQWtEO0VBQ2xELGdEQUFnRDtFQUNoRCxnREFBZ0Q7RUFDaEQsa0RBQWtEO0VBQ2xELDRFQUE0RTtFQUM1RSw2RUFBNkU7RUFDN0UsNEVBQTRFO0VBQzVFLDZFQUE2RTtFQUM3RSxnRUFBZ0U7RUFDaEUsaUVBQWlFO0VBQ2pFLHFFQUFxRTtFQUNyRSxzRUFBc0U7RUFDdEUsNERBQTREO0VBQzVELDBFQUEwRTtFQUMxRSxxRUFBcUU7RUFDckUsc0VBQXNFO0VBQ3RFLG9FQUFvRTtFQUNwRSxxRUFBcUU7RUFDckUsNEVBQTRFO0VBQzVFLHlFQUF5RTtFQUN6RSxnRUFBZ0U7RUFDaEUsaUVBQWlFO0VBQ2pFLG9FQUFvRTtFQUNwRSxxRUFBcUU7RUFDckUsMkRBQTJEO0VBQzNELHlFQUF5RTtFQUN6RSxnRUFBZ0U7RUFDaEUsaUVBQWlFO0FBQ25FIiwiZmlsZSI6ImRhcmsuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBEbyBub3QgZWRpdCBkaXJlY3RseSwgdGhpcyBmaWxlIHdhcyBhdXRvLWdlbmVyYXRlZC5cbiAqL1xuXG4udHAtbWVkbWUudHAtdGhlbWUtYmlsbHkudHAtc2NoZW1lLWRhcmsge1xuICAtLXRwLWNvbG9yLXVpLXByaW1hcnktc3Ryb25nZXI6IGhzbGEoIDE5MCwgMTAwJSwgOTAlLCAxKTtcbiAgLS10cC1jb2xvci11aS1wcmltYXJ5LXN0cm9uZzogaHNsYSggMTkwLCAxMDAlLCA4MCUsIDEpO1xuICAtLXRwLWNvbG9yLXVpLXByaW1hcnktYmFzZTogaHNsYSggMTkwLCAxMDAlLCA1MCUsIDEpO1xuICAtLXRwLWNvbG9yLXVpLXByaW1hcnktc29mdDogaHNsYSggMTkwLCAxMDAlLCAzMCUsIDEpO1xuICAtLXRwLWNvbG9yLXVpLXByaW1hcnktc29mdGVyOiBoc2xhKCAxOTAsIDEwMCUsIDEwJSwgMSk7XG4gIC0tdHAtY29sb3ItdWktbmV1dHJhbC1zdHJvbmdlcjogaHNsYSggMCwgMCUsIDg1JSwgMSk7XG4gIC0tdHAtY29sb3ItdWktbmV1dHJhbC1zdHJvbmc6IGhzbGEoIDAsIDAlLCA2NSUsIDEpO1xuICAtLXRwLWNvbG9yLXVpLW5ldXRyYWwtYmFzZTogaHNsYSggMCwgMCUsIDQ1JSwgMSk7XG4gIC0tdHAtY29sb3ItdWktbmV1dHJhbC1zb2Z0OiBoc2xhKCAwLCAwJSwgMjUlLCAxKTtcbiAgLS10cC1jb2xvci11aS1uZXV0cmFsLXNvZnRlcjogaHNsYSggMCwgMCUsIDEzJSwgMSk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLXNvbGlkLXByaW1hcnktYmFja2dyb3VuZC1kZWZhdWx0OiBoc2xhKCAxOTAsIDEwMCUsIDUwJSwgMSk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLXNvbGlkLXByaW1hcnktYmFja2dyb3VuZC1kaXNhYmxlZDogaHNsYSggMTkwLCAxMDAlLCAzMCUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1zb2xpZC1wcmltYXJ5LWZvcmVncm91bmQtZGVmYXVsdDogaHNsYSggMTkwLCAxMDAlLCAxMCUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1zb2xpZC1wcmltYXJ5LWZvcmVncm91bmQtZGlzYWJsZWQ6IGhzbGEoIDE5MCwgMTAwJSwgODAlLCAxKTtcbiAgLS10cC1jb2xvci1idXR0b24tc29saWQtcHJpbWFyeS1ib3JkZXItZGVmYXVsdDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tc29saWQtcHJpbWFyeS1ib3JkZXItZGlzYWJsZWQ6IHJnYmEoMCwgMCwgMCwgMCk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLWJvcmRlci1uZXV0cmFsLWJhY2tncm91bmQtZGVmYXVsdDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tYm9yZGVyLW5ldXRyYWwtYmFja2dyb3VuZC1kaXNhYmxlZDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tYm9yZGVyLW5ldXRyYWwtZm9yZWdyb3VuZC1kZWZhdWx0OiAjZmZmZmZmO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1ib3JkZXItbmV1dHJhbC1mb3JlZ3JvdW5kLWRpc2FibGVkOiBoc2xhKCAwLCAwJSwgNjUlLCAxKTtcbiAgLS10cC1jb2xvci1idXR0b24tYm9yZGVyLW5ldXRyYWwtYm9yZGVyLWRlZmF1bHQ6IGhzbGEoIDAsIDAlLCA0NSUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1ib3JkZXItbmV1dHJhbC1ib3JkZXItZGlzYWJsZWQ6IGhzbGEoIDAsIDAlLCA0NSUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1naG9zdC1wcmltYXJ5LWJhY2tncm91bmQtZGVmYXVsdDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tZ2hvc3QtcHJpbWFyeS1iYWNrZ3JvdW5kLWRpc2FibGVkOiByZ2JhKDAsIDAsIDAsIDApO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1naG9zdC1wcmltYXJ5LWZvcmVncm91bmQtZGVmYXVsdDogaHNsYSggMTkwLCAxMDAlLCA4MCUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1naG9zdC1wcmltYXJ5LWZvcmVncm91bmQtZGlzYWJsZWQ6IGhzbGEoIDAsIDAlLCA0NSUsIDEpO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1naG9zdC1wcmltYXJ5LWJvcmRlci1kZWZhdWx0OiByZ2JhKDAsIDAsIDAsIDApO1xuICAtLXRwLWNvbG9yLWJ1dHRvbi1naG9zdC1wcmltYXJ5LWJvcmRlci1kaXNhYmxlZDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tZ2hvc3QtbmV1dHJhbC1iYWNrZ3JvdW5kLWRlZmF1bHQ6IHJnYmEoMCwgMCwgMCwgMCk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLWdob3N0LW5ldXRyYWwtYmFja2dyb3VuZC1kaXNhYmxlZDogcmdiYSgwLCAwLCAwLCAwKTtcbiAgLS10cC1jb2xvci1idXR0b24tZ2hvc3QtbmV1dHJhbC1mb3JlZ3JvdW5kLWRlZmF1bHQ6ICNmZmZmZmY7XG4gIC0tdHAtY29sb3ItYnV0dG9uLWdob3N0LW5ldXRyYWwtZm9yZWdyb3VuZC1kaXNhYmxlZDogaHNsYSggMCwgMCUsIDQ1JSwgMSk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLWdob3N0LW5ldXRyYWwtYm9yZGVyLWRlZmF1bHQ6IHJnYmEoMCwgMCwgMCwgMCk7XG4gIC0tdHAtY29sb3ItYnV0dG9uLWdob3N0LW5ldXRyYWwtYm9yZGVyLWRpc2FibGVkOiByZ2JhKDAsIDAsIDAsIDApO1xufVxuIl19 */
