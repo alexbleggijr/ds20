@@ -6,7 +6,7 @@ on:
       - release/**/*
 
 jobs:
-  build-intergrity:
+  pr-main:
     runs-on: ubuntu-latest
     steps:
       - name: Prefix pull request title
