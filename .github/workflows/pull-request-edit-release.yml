@@ -1,4 +1,4 @@
-name: pull request to release
+name: pull request edition to release
 
 on:
   pull_request:
@@ -8,14 +8,13 @@ on:
       - edited
 
 jobs:
-  on-pr-edit-to-release:
+  on-pr-edition-to-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Prefix pull request title
+      - name: Prefix pull request title edition
         uses: deepakputhraya/action-pr-title@master
         with:
-          regex: '/^([feat]|[fix]|[docs]|[style]|[refactor]|[test]|[build]|[ci]|[chore])+([angular-material]|[icons]|[interactions]|[ionic-5]|[ionic-6]|[ionic-7]|[ionic-8]|[shared]|[tokens]|[utilities]|[web-components])+([a-z])+\/([a-z])+$/;'
-          prefix_case_sensitive: true
+          regex: '([feat]|[fix]|[docs]|[style]|[refactor]|[test]|[build]|[ci]|[chore])+([angular-material]|[icons]|[interactions]|[ionic-5]|[ionic-6]|[ionic-7]|[ionic-8]|[shared]|[tokens]|[utilities]|[web-components])+([a-z])+\/([a-z])+'
           github_token: ${{ github.token }}
 
       - uses: actions/checkout@v4
