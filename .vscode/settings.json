@@ -4,6 +4,11 @@
     "source.fixAll": "always"
   },
   "editor.formatOnSave": true,
+  "material-icon-theme.files.associations": {
+    "settings.json": "vscode",
+    "extensions.json": "vscode",
+    ".czrc": "commitlint"
+  },
   "material-icon-theme.folders.associations": {
     "interactions": "typescript",
     "ionic": "sass",

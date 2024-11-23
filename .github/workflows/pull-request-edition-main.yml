@@ -1,0 +1,22 @@
+name: pull request edition to main
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - edited
+
+jobs:
+  on-pr-edition-to-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prefix pull request title edition
+        uses: deepakputhraya/action-pr-title@master
+        with:
+          regex: '^\d+\.\d+\.\d+$'
+          github_token: ${{ github.token }}
+
+      - uses: actions/checkout@v4
+      - name: npm install
+        run: npm install

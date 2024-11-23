@@ -16,7 +16,7 @@ package/verb/task
 
 The main package which the task is been developed.
 
-### Verbs
+### Types
 
 Must follow [conventional commits 2.0](https://www.conventionalcommits.org/en/v1.0.0/).
 
