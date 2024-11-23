@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# get the current branch name
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+# check if the branch matches specific names or patterns
+if [[ "$branch_name" =~ ^release/.** ]]; then
+  # run the branch name validation script if the branch matches
+  npm run check-branch-name
+else
+  echo "Skipping branch name check for branch: $branch_name"
+fi

@@ -8,7 +8,8 @@
   ],
   "private": true,
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "check-branch-name": "node .scripts/check-branch-name.js"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.2",
@@ -43,6 +44,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.6",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
     "jest": "^29.7.0",
     "jest-cli": "^29.7.0",
     "lit": "^3.2.1",
