@@ -1,0 +1,29 @@
+name: Bump version
+
+on:
+  pull_request:
+    types: closed
+    branches:
+      - main
+
+jobs:
+  bump:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
+
+      - name: Bump version and push tag
+        uses: anothrNick/github-tag-action@1.64.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WITH_V: false
+
+      - name: Delete release branch
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          branches: release/**/*
+          github_token: ${{github.token}}
