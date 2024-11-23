@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - release/**/*
   pull_request:
 
 permissions:
@@ -25,11 +25,13 @@ jobs:
       # - run: npx nx-cloud start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after="build"
 
       # Cache node_modules
+      - name: node setup
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
+      - name: installing dependencies
       - run: npm ci --legacy-peer-deps
       - uses: nrwl/nx-set-shas@v4
 
@@ -37,3 +39,7 @@ jobs:
       # - run: npx nx-cloud record -- echo Hello World
       # Nx Affected runs only tasks affected by the changes in this PR/commit. Learn more: https://nx.dev/ci/features/affected
       - run: npx nx affected -t lint test build
+
+      - name: running Commitlint
+        run: |
+          npx --no -- commitlint --from=origin/${{ github.event.pull_request.base.ref }} --to=HEAD
