@@ -16,7 +16,3 @@ jobs:
         with:
           regex: '^\d+\.\d+\.\d+$'
           github_token: ${{ github.token }}
-
-      - uses: actions/checkout@v4
-      - name: npm install
-        run: npm install

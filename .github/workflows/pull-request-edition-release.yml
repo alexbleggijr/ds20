@@ -16,7 +16,3 @@ jobs:
         with:
           regex: '^\[(root|angular-material|icons|interactions|ionic-5|ionic-6|ionic-7|ionic-8|shared|tokens|utilities|web-components)\]\[(feat|fix|docs|style|refactor|test|build|ci|chore)\] [a-z]+( .*)*$'
           github_token: ${{ github.token }}
-
-      - uses: actions/checkout@v4
-      - name: npm install
-        run: npm install
