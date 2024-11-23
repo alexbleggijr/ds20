@@ -4,7 +4,7 @@
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
 # check if the branch matches specific names or patterns
-if [[ "$branch_name" =~ ^release/.** ]]; then
+if ! [[ "$branch_name" == "main" || "$branch_name" =~ ^release/.* ]]; then
   # run the branch name validation script if the branch matches
   npm run check-branch-name
 else
