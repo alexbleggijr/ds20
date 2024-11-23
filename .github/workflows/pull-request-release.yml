@@ -1,7 +1,7 @@
-name: CI
+name: release branch pull request commit message check
 
 on:
-  push:
+  pull_request:
     branches:
       - release/**/*
   pull_request:
