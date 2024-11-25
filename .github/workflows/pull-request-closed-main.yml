@@ -2,7 +2,7 @@ name: pull request closed to main
 
 on:
   pull_request:
-  branches:
+    branches:
       - main
     types:
       - closed
