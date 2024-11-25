@@ -1,13 +1,14 @@
-name: Bump version
+name: pull request closed to main
 
 on:
   pull_request:
-    types: closed
-    branches:
+  branches:
       - main
+    types:
+      - closed
 
 jobs:
-  bump:
+  on-pr-closed-to-main:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
@@ -21,9 +22,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: false
-
-      - name: Delete release branch
-        uses: dawidd6/action-delete-branch@v3
-        with:
-          branches: release/**/*
-          github_token: ${{github.token}}
