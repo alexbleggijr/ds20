@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate Changelog
         run: |
-          cz-conventional-changelog -i dist/CHANGELOG.md -s
+          npx cz-conventional-changelog -i dist/CHANGELOG.md -s
 
       - name: Commit and push changelog
         run: |
