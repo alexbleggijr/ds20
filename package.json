@@ -8,7 +8,6 @@
   ],
   "private": true,
   "scripts": {
-    "commit": "cz",
     "check-branch-name": "node .scripts/check-branch-name.js"
   },
   "devDependencies": {
