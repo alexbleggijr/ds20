@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# get the current branch name
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+branch_regex='^(feat|fix|docs|style|refactor|test|build|ci|chore)\/(root|angular-material|icons|interactions|ionic-5|ionic-6|ionic-7|ionic-8|shared|tokens|utilities|web-components)\/[a-z0-9\-]+$'
+
+echo $branch_name
+
+# check if the third parameter is '1' (branch creation)
+if [ '$3' == '1' ]; then
+  echo 'branch creation'
+  # check if the branch name matches the regex
+  if ! [[ '$2' =~ $branch_regex ]]; then
+    echo 'Error: Branch name '$2' does not match the required naming convention.'
+    echo 'Valid branch names must match the pattern: /^(feat|fix|docs|style|refactor|test|build|ci|chore)\/(root|angular-material|icons|interactions|ionic-5|ionic-6|ionic-7|ionic-8|shared|tokens|utilities|web-components)\/[a-z0-9\-]+$/'
+    exit 1  # abort branch creation
+  fi
+fi
